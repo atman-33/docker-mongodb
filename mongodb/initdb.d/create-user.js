@@ -1,7 +1,7 @@
 db = db.getSiblingDB("admin");
 db.createUser({
     user: "root",
-    pwd: "root",
+    pwd: "pass",
     roles: [{ role: "root", db: "admin" }]
 });
 
