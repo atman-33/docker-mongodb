@@ -1,6 +1,7 @@
 ## create mongodb container and user
 ```
-docker-compose up -d --build
+docker-compose build --no-cache
+docker-compose up -d
 ```
 
 The following is checking that db created.  
