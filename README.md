@@ -29,8 +29,15 @@ use admin
 db.auth("root", "pass")
 ```
 
-*sampleuser*
+*sampledb => sampleuser*
 ```
 use sampledb
 db.auth("sampleuser", "pass")
+```
+
+## mongodb URL
+```
+mongodb://localhost:27017
+mongodb://root:pass@localhost:27017/admin
+mongodb://sampleuser:pass@localhost:27017/sampledb
 ```
